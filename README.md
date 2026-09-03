@@ -7,3 +7,4 @@
 | 日期 | 记录 | 说明 |
 | --- | --- | --- |
 | 2026-09-01 | [第 1 次：vLLM：把 KV Cache 当成“内存管理系统”来理解](records/2026-09-01-vllm-kv-cache.md) | vLLM 执行链路、KV Cache block 分配与 Scheduler 协作 |
+| 2026-09-03 | [第 2 次：从 Ring AllReduce 推导 NCCL 通信成本](records/2026-09-03-ring-allreduce-nccl.md) | Ring AllReduce、NCCL 通信成本模型与 Tensor Parallel 扩展性 |
