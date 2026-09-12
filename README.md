@@ -11,3 +11,4 @@
 | 2026-09-06 | [第 3 次：Performance Debugging：证明 NCCL 和 GEMM 到底有没有 overlap](records/2026-09-06-performance-debugging-overlap.md) | CUDA timeline、stream dependency、kernel overlap 与硬件资源竞争 |
 | 2026-09-08 | [第 4 次：RDMA：从 ibv_post_send() 追到 NIC DMA 与 CQE](records/2026-09-08-rdma-ibv-post-send.md) | RDMA Write 数据路径、WQE/Doorbell/CQE、Mini QP 与故障排查 |
 | 2026-09-10 | [第 5 次：Distributed Systems：设计一个“不会被慢节点拖死”的推理 Worker 调度器](records/2026-09-10-straggler-worker-scheduler.md) | Straggler 检测、Worker 状态机、TP failure domain 与跨 rank 根因分析 |
+| 2026-09-12 | [第 6 次：vLLM Continuous Batching：一次 schedule() 如何变成一次 GPU Forward](records/2026-09-12-vllm-continuous-batching.md) | Scheduler、KV allocation、Model Runner 与动态 GPU workload |
