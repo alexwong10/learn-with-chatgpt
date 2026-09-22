@@ -15,3 +15,4 @@
 | 2026-09-15 | [第 7 次：Operator：从 Naive GEMM 到 Tiling，理解 GPU 为什么需要“数据复用”](records/2026-09-15-tiled-gemm-roofline.md) | Roofline、Arithmetic Intensity、Tiling、数据复用与 Tensor Parallel |
 | 2026-09-19 | [第 8 次：Collective Implementation：亲手实现 Ring Reduce-Scatter + AllGather](records/2026-09-19-ring-reduce-scatter-allgather.md) | Ring 状态机、chunk pipeline、RDMA transport 与 backpressure |
 | 2026-09-19 | [第 9 次：PagedAttention：从 Block Table 一路追到 GPU 的 KV Load](records/2026-09-19-pagedattention-block-table.md) | BlockTable 地址翻译、Paged KV Cache、GPU memory load 与 block size 权衡 |
+| 2026-09-22 | [第 10 次：GPUDirect RDMA：为什么 NIC 可以直接读写 GPU 显存？](records/2026-09-22-gpudirect-rdma.md) | GPU-NIC DMA、PCIe topology、NCCL transport 与端到端瓶颈分析 |
