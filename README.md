@@ -18,3 +18,4 @@
 | 2026-09-22 | [第 10 次：GPUDirect RDMA：为什么 NIC 可以直接读写 GPU 显存？](records/2026-09-22-gpudirect-rdma.md) | GPU-NIC DMA、PCIe topology、NCCL transport 与端到端瓶颈分析 |
 | 2026-09-24 | [第 11 次：端到端性能诊断：TTFT 突然升高，到底该怪谁？](records/2026-09-24-end-to-end-performance-debugging.md) | TTFT critical path、Scheduler/KV pressure、NCCL/RDMA 归因与证据链 |
 | 2026-09-26 | [第 12 次：CUDA Runtime：用 Stream + Event + DAG 判断“真 overlap”还是假 overlap](records/2026-09-26-cuda-runtime-overlap.md) | CUDA stream/event、依赖 DAG、chunk pipeline、资源冲突与 critical path |
+| 2026-10-05 | [第 15 次：Operator：从 Online Softmax 推导 FlashAttention](records/2026-10-05-online-softmax-flashattention.md) | Online Softmax、tiled attention、HBM IO、Paged KV 与 Prefill/Decode |
